@@ -1,8 +1,8 @@
-# Abdominal Organs at Risk Segmentation
+# Liver and Liver Cancer Segmentation
 
-This repositorty provides a example notebook of the abdominal organs at risk segmentation nnU-Net models, a series of tools for the segmentation of 13 abdominal organs from contrast-enhanced CT images. The model was trained using 50 abdomen CT scans of selected from various clinical trials. The scans were captured during portal venous contrast phase, with variable volume size, field of view, and slice thickness.
+This repositorty provides a minimal working example of the liver and liver cancer segmentation nnU-Net models, a series of tools for the segmentation of such anatomies from contrast-enhanced CT images. The model was trained using 201 contrast-enhanced CT images from several clinical sites. The dataset included a variety of primary cancers, pre- and post-therapy images, with variable volume size, field of view, slice thickness, and the presence of metal artefacts.
 
-You can find the notebook [here](https://github.com/modelhub-ai/colab_organsatrisk/blob/main/nnunet_abdominal_oar_mwe.ipynb).
+You can find the notebook [here](https://github.com/modelhub-ai/colab_liver/blob/main/nnunet_liver_mwe.ipynb).
 
 
 ### Publication
