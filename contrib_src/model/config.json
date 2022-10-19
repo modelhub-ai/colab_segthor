@@ -21,7 +21,7 @@
     "bibtex": "@article{isensee2021nnu, title={nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation}, author={Isensee, Fabian and Jaeger, Paul F and Kohl, Simon AA and Petersen, Jens and Maier-Hein, Klaus H}, journal={Nature methods}, volume={18}, number={2}, pages={203--211}, year={2021}, publisher={Nature Publishing Group}}"
   },
   "model": {
-    "description": "This notebook priived a series of tools for the segmentation of 13 abdominal organs from contrast-enhanced CT images.",
+    "description": "This notebook provides a series of tools for the segmentation of 13 abdominal organs from contrast-enhanced CT images.",
     "provenance": "",
     "architecture": "pyTorch, nnUnet",
     "learning_type": "",
