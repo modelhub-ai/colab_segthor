@@ -8,7 +8,7 @@
     "data_type": "Image/CT scan",
     "framework": "Google CoLab, nnUnet and PyTorch",
     "colab_link": "https://github.com/modelhub-ai/colab_organsatrisk/blob/main/nnunet_abdominal_oar_mwe.ipynb",
-    "github_link": "https://github.com/modelhub-ai/colab_organsatrisk"
+    "github_link": "https://github.com/MIC-DKFZ/nnUNet"
   },
   "publication": {
     "title": "nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation",
