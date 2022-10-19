@@ -1,27 +1,27 @@
 {
   "id": "0000",
   "meta": {
-    "name": "colab_totalsegmentator",
+    "name": "colab_organsatrisk",
     "application_area": "Google CoLab",
     "task": "Segmentation",
-    "task_extended": "Whole body segmentation",
+    "task_extended": "Abdominal organ segmentation",
     "data_type": "Image/CT scan",
-    "framework": "Google CoLab and PyTorch",
-    "colab_link": "https://github.com/modelhub-ai/colab_totalsegmentator/blob/main/totalseg_all_mwe.ipynb",
-    "github_link": "https://github.com/wasserth/TotalSegmentator"
+    "framework": "Google CoLab, nnUnet and PyTorch",
+    "colab_link": "https://github.com/modelhub-ai/colab_organsatrisk/blob/main/nnunet_abdominal_oar_mwe.ipynb",
+    "github_link": "https://github.com/modelhub-ai/colab_organsatrisk"
   },
   "publication": {
-    "title": "TotalSegmentator: robust segmentation of 104 anatomical structures in CT images",
-    "source": "https://doi.org/10.48550/arXiv.2208.05868",
-    "year": 2022,
-    "authors": "Wasserthal, J., Meyer, M., Breit, H.C., Cyriac, J., Yang, S. and Segeroth, M.",
-    "abstract": "In this work we focus on automatic segmentation of multiple anatomical structures in (whole body) CT images. Many segmentation algorithms exist for this task. However, in most cases they suffer from 3 problems: 1. They are difficult to use (the code and data is not publicly available or difficult to use). 2. They do not generalize (often the training dataset was curated to only contain very clean images which do not reflect the image distribution found during clinical routine), 3. The algorithm can only segment one anatomical structure. For more structures several algorithms have to be used which increases the effort required to set up the system. In this work we publish a new dataset and segmentation toolkit which solves all three of these problems: In 1204 CT images we segmented 104 anatomical structures (27 organs, 59 bones, 10 muscles, 8 vessels) covering a majority of relevant classes for most use cases. We show an improved workflow for the creation of ground truth segmentations which speeds up the process by over 10x. The CT images were randomly sampled from clinical routine, thus representing a real world dataset which generalizes to clinical application. The dataset contains a wide range of different pathologies, scanners, sequences and sites. Finally, we train a segmentation algorithm on this new dataset. We call this algorithm TotalSegmentator and make it easily available as a pretrained python pip package (pip install totalsegmentator). Usage is as simple as TotalSegmentator -i ct.nii.gz -o seg and it works well for most CT images.",
-    "url": "https://doi.org/10.48550/arXiv.2208.05868",
-    "google_scholar": "https://scholar.google.com/scholar?cites=2693648639295449445&as_sdt=40000005&sciodt=0,22&hl=en",
-    "bibtex": "@article{wasserthal2022totalsegmentator, title={TotalSegmentator: robust segmentation of 104 anatomical structures in CT images}, author={Wasserthal, Jakob and Meyer, Manfred and Breit, Hanns-Christian and Cyriac, Joshy and Yang, Shan and Segeroth, Martin}, journal={arXiv preprint arXiv:2208.05868}, year={2022}}"
+    "title": "nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation",
+    "source": "https://doi.org/10.1038/s41592-020-01008-z",
+    "year": 2021,
+    "authors": "Isensee, F., Jaeger, P.F., Kohl, S.A., Petersen, J. and Maier-Hein, K.H.",
+    "abstract": "Biomedical imaging is a driver of scientific discovery and a core component of medical care and is being stimulated by the field of deep learning. While semantic segmentation algorithms enable image analysis and quantification in many applications, the design of respective specialized solutions is non-trivial and highly dependent on dataset properties and hardware conditions. We developed nnU-Net, a deep learning-based segmentation method that automatically configures itself, including preprocessing, network architecture, training and post-processing for any new task. The key design choices in this process are modeled as a set of fixed parameters, interdependent rules and empirical decisions. Without manual intervention, nnU-Net surpasses most existing approaches, including highly specialized solutions on 23 public datasets used in international biomedical segmentation competitions. We make nnU-Net publicly available as an out-of-the-box tool, rendering state-of-the-art segmentation accessible to a broad audience by requiring neither expert knowledge nor computing resources beyond standard network training.",
+    "url": "https://doi.org/10.1038/s41592-020-01008-z",
+    "google_scholar": "https://scholar.google.com/scholar?cites=9470755338057003085&as_sdt=40000005&sciodt=0,22&hl=en",
+    "bibtex": "@article{isensee2021nnu, title={nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation}, author={Isensee, Fabian and Jaeger, Paul F and Kohl, Simon AA and Petersen, Jens and Maier-Hein, Klaus H}, journal={Nature methods}, volume={18}, number={2}, pages={203--211}, year={2021}, publisher={Nature Publishing Group}}"
   },
   "model": {
-    "description": "TotalSegmentator is a tool for the segmentation of 104 classes in CT images and was trained using a wide range of different CR images from several participating institutions.",
+    "description": "This notebook priived a series of tools for the segmentation of 13 abdominal organs from contrast-enhanced CT images.",
     "provenance": "",
     "architecture": "pyTorch, nnUnet",
     "learning_type": "",
