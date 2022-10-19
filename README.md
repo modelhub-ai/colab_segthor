@@ -1,18 +1,14 @@
-# Total Segmentator
+# Abdominal Organs at Risk Segmentation
 
-This repositorty provides a example notebook to run an end-to-end, cloud-based data analysis using the TotalSegmentator segmentation pipeline for whole body CT scan segmentation. TotalSegmentator is a tool for the segmentation of 104 classes in CT images and was trained using a wide range of different CR images from several participating institutions.
+This repositorty provides a example notebook of the abdominal organs at risk segmentation nnU-Net models, a series of tools for the segmentation of 13 abdominal organs from contrast-enhanced CT images. The model was trained using 50 abdomen CT scans of selected from various clinical trials. The scans were captured during portal venous contrast phase, with variable volume size, field of view, and slice thickness.
 
-You can find the notebook [here](https://github.com/modelhub-ai/colab_totalsegmentator/blob/main/totalseg_all_mwe.ipynb).
+You can find the notebook [here](https://github.com/modelhub-ai/colab_organsatrisk/blob/main/nnunet_abdominal_oar_mwe.ipynb).
 
 
 ### Publication
 
 Please cite the following article if you use this code or pre-trained models:
 
-Wasserthal, J., Meyer, M., Breit, H.C., Cyriac, J., Yang, S. and Segeroth, M., 2022. TotalSegmentator: robust segmentation of 104 anatomical structures in CT images. arXiv preprint arXiv:2208.05868, [
-https://doi.org/10.48550/arXiv.2208.05868]( 	
-https://doi.org/10.48550/arXiv.2208.05868).
+Isensee, F., Jaeger, P.F., Kohl, S.A., Petersen, J. and Maier-Hein, K.H., 2021. nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nature methods, 18(2), pp.203-211, [https://doi.org/10.1038/s41592-020-01008-z](https://doi.org/10.1038/s41592-020-01008-z).
 
-The original code is published on
-[GitHub](https://github.com/wasserth/TotalSegmentator)  using the [Apache-2.0 license](https://github.com/wasserth/TotalSegmentator/blob/master/LICENSE).
-
+The original code is published on [GitHub](https://github.com/MIC-DKFZ/nnUNet) and the p[retrained network can be found [here](https://zenodo.org/record/4003545). The original code is published using the [Apache-2.0 license](https://github.com/MIC-DKFZ/nnUNet/blob/master/LICENSE).
