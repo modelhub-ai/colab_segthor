@@ -1,13 +1,13 @@
 {
   "id": "0000",
   "meta": {
-    "name": "colab_organsatrisk",
+    "name": "colab_liver",
     "application_area": "Google CoLab",
     "task": "Segmentation",
-    "task_extended": "Abdominal organ segmentation",
+    "task_extended": "Liver and liver cancer segmentation",
     "data_type": "Image/CT scan",
     "framework": "Google CoLab, nnUnet and PyTorch",
-    "colab_link": "https://github.com/modelhub-ai/colab_organsatrisk/blob/main/nnunet_abdominal_oar_mwe.ipynb",
+    "colab_link": "https://github.com/modelhub-ai/colab_liver/blob/main/nnunet_liver_mwe.ipynb",
     "github_link": "https://github.com/MIC-DKFZ/nnUNet"
   },
   "publication": {
@@ -21,7 +21,7 @@
     "bibtex": "@article{isensee2021nnu, title={nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation}, author={Isensee, Fabian and Jaeger, Paul F and Kohl, Simon AA and Petersen, Jens and Maier-Hein, Klaus H}, journal={Nature methods}, volume={18}, number={2}, pages={203--211}, year={2021}, publisher={Nature Publishing Group}}"
   },
   "model": {
-    "description": "This notebook provides a series of tools for the segmentation of 13 abdominal organs from contrast-enhanced CT images.",
+    "description": "This notebook provides a minimal working example of the liver and liver cancer segmentation nnU-Net models, a series of tools for the segmentation of such anatomies from contrast-enhanced CT images.",
     "provenance": "",
     "architecture": "pyTorch, nnUnet",
     "learning_type": "",
